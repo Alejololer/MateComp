@@ -36,10 +36,21 @@ Sol1    Sol2
 El espacio de estados se define como: ((X,Y):X son los litros en la jarra de 4L con 0<=x<=4 y Y son los litros en la jarra de 3L)
 
 1.Llenar la jarra de 4L:  Si (X,Y) AND x<4 ==>(4,Y)
+
 2.Llenar la jarra de 3L:  Si (X,Y) AND Y=3 ==>(X,3)
+
 3.Vaciar la jarra de 4L:  Si (X,Y) AND X>0 ==>(0,Y)
+
 4.Vaciar la jarra de 3L:  Si (Z,Y) AND Y>0 ==>(X,0)
+
 5.Pasar agua de la jarra de 4L a la jarra de 3L hasta llenarla: Si (X,Y) AND X>0 AND X+Y>=3 ==>(X-(3-Y),3)
+
 6.Pasar agua de la jarra de 3L a la jarra de 4L hasta llenarla: Si (X,Y) AND Y>0 AND X+Y>=4 ==>(4,Y-(4-x))
+
 7.Pasar toda el agua de la jarra el 4L a la jarra de 3L: Si (X,Y) AND X>0 AND X+Y<3 ==>(0,X+Y)
+
 8.Pasar toda el agua de la jarra de 3L a la jarra de 4L: Si (X,Y) AND Y>0 ANDX+Y<4 ==>(X+Y,0)
+
+Tipos de búsqueda para la solución:
+
+Búsqueda primero en anchura
