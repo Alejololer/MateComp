@@ -65,4 +65,7 @@ S2  S2  S2
 
 ![image](https://user-images.githubusercontent.com/42527062/206855210-80f57152-2500-4277-9465-fdfd6dc3710f.png)
 
+>No deterministas
+Determinista pero mas de dos soluciones posibles.
 
+Estado con doble circulo= Estado objetivo.
