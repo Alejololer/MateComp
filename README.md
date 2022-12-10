@@ -54,3 +54,15 @@ El espacio de estados se define como: ((X,Y):X son los litros en la jarra de 4L 
 Tipos de búsqueda para la solución:
 
 Búsqueda primero en anchura
+
+### Maquina de estados / Autómata finitos
+Sea A={a,b} B={S0,S1,S2)-
+Sea F de A en B.
+F   a   b
+S0  S0  S1
+S1  S0  S2
+S2  S2  S2
+
+![image](https://user-images.githubusercontent.com/42527062/206855210-80f57152-2500-4277-9465-fdfd6dc3710f.png)
+
+
