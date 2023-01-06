@@ -9,17 +9,25 @@ Aleatorio: Sin patrones de comportamiento que se puedan usar, impredecible
 Consisten en la matematización de los instintos
 ## Resolución de problemas
 -Estado inicial
+
 -Función sucesor (devuelve los posibles estados siguientes)
+
 -Espacio de estados (conjunto de todos los estados alcanzables)
+
 -Estado objetivo
+
 -Camino (secuencia de estados que comienza en el estado inicial)
+
 -Una solución de un problema es un camino que parte del estado inicial y acaba en un estado objetivo)
 
 Se tiene dos jarras de agua, una de 4l y otra de 3l sin escala de medición. Se desea tener 2l de agua en la jarra de 4l.
 
 Las siguientes operaciones son válidas:
--Llenar totalmente una jarra;
+
+-Llenar totalmente una jarra
+
 -Tirar totalmente el agua de una jarra
+
 -Pasar agua de una jarra a otra hasta que la primera esté vacía o hasta que la segunda esté llena
 
 Sol1    Sol2
