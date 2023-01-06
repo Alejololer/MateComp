@@ -5,9 +5,9 @@ Determinista: Se sabe con toda certeza lo que pasará
 Probabilístico: Tiene patrones de comportamiento que se pueden usar para predecir
 
 Aleatorio: Sin patrones de comportamiento que se puedan usar, impredecible
-##Lenguajes Formales
+## Lenguajes Formales
 Consisten en la matematización de los instintos
-##Resolución de problemas
+## Resolución de problemas
 -Estado inicial
 -Función sucesor (devuelve los posibles estados siguientes)
 -Espacio de estados (conjunto de todos los estados alcanzables)
@@ -32,7 +32,7 @@ Sol1    Sol2
 0 2     4 1 
 2 0     2 3
 
-##Formalización de problemas
+## Formalización de problemas
 El espacio de estados se define como: ((X,Y):X son los litros en la jarra de 4L con 0<=x<=4 y Y son los litros en la jarra de 3L)
 
 1.Llenar la jarra de 4L:  Si (X,Y) AND x<4 ==>(4,Y)
